@@ -1,0 +1,25 @@
+{
+  "name": "web_app_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "server:dev": "nodemon server/server.js",
+    "start": "node server/server.js",
+    "build": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
